@@ -1,0 +1,48 @@
+  <html>
+</head>
+<style>
+
+body{
+background-image:url("doc2.jpg");
+background-repeat:no-repeat;
+
+}
+div{
+outline-style:solid;
+margin-top:100px;
+margin-left:500px;
+margin-right:300px;
+background-color:lightgreen;
+}
+.g{
+margin-left:500px;
+margin-top:10px;
+text-align:center;
+font-size:100px;
+background-color:lightgray;
+}
+
+</style>
+</head>
+<body>
+    <form  method="get" action="tt.jsp">
+            <div>
+                
+                <h3 style="text-align:center;color:navyblue;font-size:40px;" >Registered Yourself</h3>
+                
+                <table>
+                    
+                    <tr>
+                        <td>Name:<input type=text name="n1" placeholder="name"></td><td>Age:<input type=number name="n2" placeholder="age"></td>
+                    </tr>
+                    <tr>
+                        <td>Father's Name:<input type=text name="n3"placeholder="father's name"></td>
+                        <td>Mob. No.<input type=number name="n4" placeholder="mobile no"></td>
+                    </tr>
+                    <tr>Appointment Date:<input type=date value="date" name="n5"></tr>
+                    <tr>Medical Condition:<input type="teaxarea" name="symp" placeholder="symptoms" maxlength="50" minlength="20">
+            </table></div>
+            <div class="g">            <input type=submit value="Register"></div>
+        
+    </form>
+</body>

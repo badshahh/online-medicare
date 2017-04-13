@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url("doc2.jpg");
+                background-repeat:no-repeat;
+            }
+            
+            table{
+                position:absolute;
+                left:500px;
+                top:250px;
+                padding:5px;
+               
+                background-color:lightgreen;
+            }
+            tr,td{
+                border:1px solid black;
+                padding:15px;
+                margin:10px,10px,10px,10px;
+               
+            }
+            #w1{
+                position:absolute;
+                bottom:200px;
+                right:10px;
+                left:4px;
+                background-color:lightgreen;
+                border:1px solid black;
+                width:316px;
+            }
+     
+            .a2{
+                position:absolute;
+                right:20px;
+            }     
+           
+        </style>
+    </head>
+    <body><form action="login.jsp" method="post">
+        <table>
+            <th><h1  colspan="2" id="w1"  style="color:blue">Welcome</h1></th>
+            <tr>
+                <td>User ID:</td>
+                <td><input type="text" style="height:30px;" name="id" placeholder="ID"></td>
+            
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" style="height:30px;" name="pass" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><span class="a1"><input type="submit" style="height:30px;width:50px;" value="login"></span>
+                    <span class="a2"><a href="signup.html" style="font-size:20">Sign Up</a></span>
+            </tr>
+                    
+        </table>            </form>
+
+    </body>
+</html>
